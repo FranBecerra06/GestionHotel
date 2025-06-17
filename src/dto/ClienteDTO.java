@@ -2,22 +2,22 @@ package dto;
 
 public class ClienteDTO {
 
-	private int id_cliente;
+	private int idCliente;
 	private String nombre;
 	private String email;
 
-	public ClienteDTO(int id_cliente, String nombre, String email) {
-		this.id_cliente = id_cliente;
+	public ClienteDTO(int idCliente, String nombre, String email) {
+		this.idCliente = idCliente;
 		this.nombre = nombre;
 		this.email = email;
 	}
 
-	public int getId_cliente() {
-		return id_cliente;
+	public int getIdCliente() {
+		return idCliente;
 	}
 
-	public void setId_cliente(int id_cliente) {
-		this.id_cliente = id_cliente;
+	public void setIdCliente(int idCliente) {
+		this.idCliente = idCliente;
 	}
 
 	public String getNombre() {
