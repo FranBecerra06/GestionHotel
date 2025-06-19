@@ -4,10 +4,10 @@ public class HabitacionDTO {
 
 	private int idHabitacion;
 	private int numeroHabitacion;
-	private int tipoHabitacion;
+	private String tipoHabitacion;
 	private Double precioHabitacion;
 
-	public HabitacionDTO(int idHabitacion, int numeroHabitacion, int tipoHabitacion, Double precioHabitacion) {
+	public HabitacionDTO(int idHabitacion, int numeroHabitacion, String tipoHabitacion, Double precioHabitacion) {
 		this.idHabitacion = idHabitacion;
 		this.numeroHabitacion = numeroHabitacion;
 		this.tipoHabitacion = tipoHabitacion;
@@ -30,11 +30,11 @@ public class HabitacionDTO {
 		this.numeroHabitacion = numeroHabitacion;
 	}
 
-	public int getTipoHabitacion() {
+	public String getTipoHabitacion() {
 		return tipoHabitacion;
 	}
 
-	public void setTipoHabitacion(int tipoHabitacion) {
+	public void setTipoHabitacion(String tipoHabitacion) {
 		this.tipoHabitacion = tipoHabitacion;
 	}
 
