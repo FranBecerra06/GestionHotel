@@ -1,11 +1,8 @@
 package dto;
 
-import java.sql.Date;
 import java.time.LocalDate;
-import java.util.*;
 
 public class ReservaDTO {
-
 	private int idReserva;
 	private int idCliente;
 	private int idHabitacion;
